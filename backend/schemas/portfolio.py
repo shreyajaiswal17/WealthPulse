@@ -6,7 +6,6 @@ from typing import Optional
 
 class HoldingCreate(BaseModel):
     symbol: str
-    
     name: str
     asset_type: str = "stock"
     quantity: float = 0.0
